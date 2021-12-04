@@ -1,11 +1,10 @@
 # Tic Tac Toe
 
 
-[Tic Tac Toe Web Based Game](https://calculator.platform.uno/) using:
+[TicTacToe Web Based Game](https://playtictactoe.org/) using:
 
-- HTML, CSS, JS
+- HTML - CSS - JS
 - MiniMax Algorithm
-- Basically, Human against AI
 <br>
 
 ![The Game Shape](/Image.png "Game Shape")
