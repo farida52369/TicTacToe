@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Tic Tac Toe</h1>
+
+        <button onclick="startGame()">Start Game</button>
+        <table>
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell vert" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+
+            <tr>
+                <td class="cell hori" id="3"></td>
+                <td class="cell vert hori" id="4"></td>
+                <td class="cell hori" id="5"></td>
+            </tr>
+
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell vert" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+
+        <!-- For Ending Game -->
+        <div class="endGame">
+            <div class="text"></div>
+        </div>
+
+        <script src="logic.js"></script>
+    </body>
+</html>

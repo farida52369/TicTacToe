@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    margin: 20px auto;
+    justify-self: center;
+    border: 0.1px solid black;
+    border-radius: 4px;
+    padding: 4px 4px;
+    text-decoration: none;
+    font-size: large;
+}
+
+button:hover {
+    background-color:rgb(202, 106, 106);
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  60px;
+}
+
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+
+.vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.endGame {
+    display: none;
+    font-style: italic;
+    margin: 10px auto;
+    text-align: center;
+    color: brown;
+    font-size: 2em;
+}
